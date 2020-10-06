@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - HomeManager</title>
+    <link href="~/Font awesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -15,26 +16,36 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"  onclick="test()">
-                    <a class="nav-link" href="#">Saját projektek</a>
+                <li class="nav-item" onclick="test()">
+                    <a class="nav-link" href="#"><i class="fas fa-laptop-code"></i>   Projektek</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Okosotthon eszközök</a>
+                    <a class="nav-link" href="#"><i class="fas fa-robot"></i>   Okosotthon</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Készlet management
+                        <i class="fas fa-warehouse"></i>   Készlet
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Termékek</a>
-                        <a class="dropdown-item" href="#">Termék kategóriák</a>
-                        <a class="dropdown-item" href="#">Lokációk</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-box-open"></i>   Termék</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-layer-group"></i>   Termék kategóriák</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-archive"></i>   Lokációk</a>
                     </div>
                 </li>
             </ul>
-            <div id="accountheaderbuttons" sstyle="float: right">
-                <button type="button" class="btn btn-light">Bejelentkezés</button>
-                <button type="button" class="btn btn-primary">Regisztráció</button>
+            <div id="accountheaderbuttons">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="rounded-circle" src="~/Images/119816026_354740222570826_6590791531889016427_n.jpg" width="35" height="35" />
+                        <label id="username">Kovács József</label>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <label id="role" class="dropdown-item disabled"><i class="fas fa-user" style="margin-right: 5px"></i>Adminisztrátor</label>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Profil</a>
+                        <a class="dropdown-item" href="#">Kijelentkezés</a>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
