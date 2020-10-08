@@ -6069,19 +6069,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dani-PC\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Saját mappák\\Programozás\\C#\\HomeManagerMVC\\HomeManagerMVC\\HomeManager\\HomeManager\\HomeManager.csproj",
+      "projectUniqueName": "D:\\Home Manager MVC\\HomeManager\\HomeManager\\HomeManager.csproj",
       "projectName": "HomeManager",
-      "projectPath": "D:\\Saját mappák\\Programozás\\C#\\HomeManagerMVC\\HomeManagerMVC\\HomeManager\\HomeManager\\HomeManager.csproj",
-      "packagesPath": "C:\\Users\\Dani-PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Saját mappák\\Programozás\\C#\\HomeManagerMVC\\HomeManagerMVC\\HomeManager\\HomeManager\\obj\\",
+      "projectPath": "D:\\Home Manager MVC\\HomeManager\\HomeManager\\HomeManager.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Home Manager MVC\\HomeManager\\HomeManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dani-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

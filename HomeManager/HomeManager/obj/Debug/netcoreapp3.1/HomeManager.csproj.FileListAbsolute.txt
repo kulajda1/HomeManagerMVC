@@ -33,7 +33,6 @@ D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.
 D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.genruntimeconfig.cache
 D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.csproj.CopyComplete
 D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
 D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -221,3 +220,5 @@ D:\Saját mappák\Programozás\C#\HomeManagerMVC\HomeManagerMVC\HomeManager\Home
 D:\Saját mappák\Programozás\C#\HomeManagerMVC\HomeManagerMVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.genruntimeconfig.cache
 D:\Saját mappák\Programozás\C#\HomeManagerMVC\HomeManagerMVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_FirstLayout.cshtml.g.cs
 D:\Saját mappák\Programozás\C#\HomeManagerMVC\HomeManagerMVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\StartPage.cshtml.g.cs
+D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\StartPage.cshtml.g.cs
+D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_FirstLayout.cshtml.g.cs
