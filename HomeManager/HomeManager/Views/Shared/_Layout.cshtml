@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top">
-        <a class="navbar-brand mr-3" href="#">friend</a>
+        <a class="navbar-brand" style="font-family: Courier New" , Courier, monospace" asp-controller="Home" asp-action="Index">friend</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,21 +26,19 @@
                     <a class="nav-link" href="#">Készlet</a>
                 </li>
             </ul>
-            <div id="accountheaderbuttons">
-                <div class="btn-group">
+                <div class="btn-group d-flex justify-content-center">
                     <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="rounded-circle" src="~/Images/119816026_354740222570826_6590791531889016427_n.jpg" width="35" height="35" />
-                        <label class="" id="username">Kovács József</label>
+                        <img class="rounded-circle" src="~/Images/119816026_354740222570826_6590791531889016427_n.jpg" style="max-height:40px; max-width:40px;"/>
+                        <label class="ml-2" id="username">Kovács József</label>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
                         <label id="role" class="dropdown-item disabled"><i class="fas fa-user pr-1" style="margin-right: 5px"></i> Adminisztrátor</label>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-center" href="#">Profil</a>
-                        <a class="dropdown-item text-center" href="#">Kijelentkezés</a>
+                        <a class="dropdown-item text-center" asp-controller="Home" asp-action="Profile">Profil</a>
+                        <a class="dropdown-item text-center" asp-controller="Home" asp-action="StartPage">Kijelentkezés</a>
                     </div>
                 </div>
-            </div>
-        </div>
+         </div>
     </nav>
 
     <div class="container">

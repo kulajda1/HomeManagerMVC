@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_FirstLayout.cshtml";
+}
+
+
+<div class="container" style="margin-top:15%">
+    <div class="card bg-light shadow-lg m-auto" style="max-width: 800px">
+        <article class="card-body m-auto">
+            <h4 class="card-title mt-3 text-center">Fiók létrehozása</h4>
+            <p class="text-center">Hozd létre a saját fiókodat!</p>
+            <p>
+                <a class="btn btn-block btn-facebook" asp-controller="Home" asp-action="Index"> <i class="fab fa-facebook-f"></i>   Belépés Facebookkal</a>
+            </p>
+            <p class="divider-text">
+                <span class="bg-light">VAGY</span>
+            </p>
+            <form>
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                    </div>
+                    <input name="" class="form-control" placeholder="Felhasználónév" type="text">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    </div>
+                    <input class="form-control" placeholder="Jelszó" type="password">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    </div>
+                    <input class="form-control" placeholder="Jelszó újra" type="password">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                    </div>
+                    <input name="" class="form-control" placeholder="E-mail" type="email">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-tag"></i> </span>
+                    </div>
+                    <input name="" class="form-control" placeholder="Vezetéknév" type="text">
+                    <input name="" class="form-control" placeholder="Keresztnév" type="text">
+                </div> <!-- form-group// -->
+                <div class="form-group">
+                    <a class="btn btn-primary text-white btn-block" asp-controller="Home" asp-action="Index"> Fiók létrehozása  </a>
+                </div> <!-- form-group// -->
+                <p class="text-center">Már regisztráltál? <a asp-controller="Home" asp-action="Login">Lépj be!</a> </p>
+            </form>
+        </article>
+    </div> <!-- card.// -->
+</div>
+<!--container end.//-->

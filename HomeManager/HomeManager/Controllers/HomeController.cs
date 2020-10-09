@@ -23,12 +23,22 @@ namespace HomeManager.Controllers
             return View();
         }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Profile()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Login()
+        public IActionResult Register()
         {
             return View();
         }

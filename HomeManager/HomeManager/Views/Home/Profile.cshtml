@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mx-auto w-auto" style="margin-top:15%; max-width: 800px">
+    <div class="card bg-light shadow-lg">
+        <div class="card-header">
+            <h4 class="my-2">Profil</h4>
+        </div>
+        
+        <article class="card-body mx-auto w-100 align-content-center text-center" style="max-width: 400px;">
+            <img class="rounded-circle my-3 shadow-lg" src="~/Images/119816026_354740222570826_6590791531889016427_n.jpg" style="max-height:200px; max-width:200px;" />
+
+            <small class="form-text text-muted text-left">Teljes név</small>
+            <div class="form-group input-group text-left">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                </div>
+                <input name="" class="form-control" placeholder="Kovács József" type="text">
+            </div>
+
+            <small class="form-text text-muted text-left">Felhasználónév</small>
+            <div class="form-group input-group text-left">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-tag"></i> </span>
+                </div>
+                <input name="" class="form-control" placeholder="kovacsjozsef62" type="text">
+            </div>
+
+            <small class="form-text text-muted text-left">Jogosultság</small>
+            <div class="form-group input-group text-left">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user-tag"></i> </span>
+                </div>
+                <input name="" disable="true" class="form-control" placeholder="Adminisztrátor" type="text">
+            </div>
+
+            <small class="form-text text-muted text-left">E-mail cím</small>
+            <div class="form-group input-group text-left">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                </div>
+                <input name="" class="form-control" placeholder="kovacs.jozsef@email.com" type="text">
+            </div>
+            <a id="savebutton" class="btn btn-primary text-white btn-block w-50 mt-5 mb-3 mx-auto" asp-controller="Home" asp-action="Index">Módosítás</a>
+        </article>
+    </div>
+</div>

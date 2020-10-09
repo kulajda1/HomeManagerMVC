@@ -1708,6 +1708,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="animate.css" Version="3.3.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
   </ItemGroup>
 

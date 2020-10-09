@@ -9,7 +9,6 @@ D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\HomeManager.
 D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\HomeManager.pdb
 D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\HomeManager.Views.dll
 D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\HomeManager.Views.pdb
-D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.csprojAssemblyReference.cache
 D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.AssemblyInfoInputs.cache
 D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.AssemblyInfo.cs
 D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.RazorAssemblyInfo.cache
@@ -106,8 +105,6 @@ D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\ru\Microsoft
 D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Home Manager MVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.csproj.CoreCompileInputs.cache
-D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.MvcApplicationPartsAssemblyInfo.cache
 D:\Saját mappák\Programozás\C#\HomeManagerMVC\HomeManagerMVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Saját mappák\Programozás\C#\HomeManagerMVC\HomeManagerMVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Saját mappák\Programozás\C#\HomeManagerMVC\HomeManagerMVC\HomeManager\HomeManager\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -222,3 +219,9 @@ D:\Saját mappák\Programozás\C#\HomeManagerMVC\HomeManagerMVC\HomeManager\Home
 D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\StartPage.cshtml.g.cs
 D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_FirstLayout.cshtml.g.cs
 D:\Saját mappák\Programozás\C#\HomeManagerMVC\HomeManagerMVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.csproj.CoreCompileInputs.cache
+D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.MvcApplicationPartsAssemblyInfo.cache
+D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\Register.cshtml.g.cs
+D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profile.cshtml.g.cs
+D:\Home Manager MVC\HomeManager\HomeManager\obj\Debug\netcoreapp3.1\HomeManager.csprojAssemblyReference.cache

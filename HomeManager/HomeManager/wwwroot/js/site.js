@@ -13,4 +13,12 @@ function change() {
         x.innerHTML = "newer user!"
     else x.innerHTML = "new user!";
 }
+
+function stoppedTyping() {
+    if (this.value.length > 0) {
+        document.getElementById('savebutton').innerHTML = "Mentés";
+    } else {
+        document.getElementById('savebutton').innerHTML = "Módosítás";
+    }
+}
 // Write your JavaScript code.

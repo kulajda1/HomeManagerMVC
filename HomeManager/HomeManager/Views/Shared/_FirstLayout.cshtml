@@ -7,10 +7,11 @@
     <link href="~/Font awesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/Font awesome/scss/_animated.scss" />
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top">
-        <a class="navbar-brand" href="#" style="font-family: Courier New" , Courier, monospace">friend</a>
+        <a class="navbar-brand" style="font-family: Courier New" , Courier, monospace" asp-controller="Home" asp-action="StartPage">friend</a>
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon text-white"></span>
         </button>
@@ -18,8 +19,8 @@
             <ul class="navbar-nav mr-auto">
             </ul>
             <div id="accountheaderbuttons">
-                <button type="button" class="btn btn-link">Bejelentkezés</button>
-                <button type="button" class="btn btn-primary">Regisztráció</button>
+                <a type="button" class="btn btn-link" asp-controller="Home" asp-action="Login">Bejelentkezés</a>
+                <a type="button" class="btn btn-primary" asp-controller="Home" asp-action="Register">Regisztráció</a>
             </div>
         </div>
     </nav>
