@@ -4,35 +4,33 @@
     Layout = "~/Views/Shared/_FirstLayout.cshtml";
 }
 
-<section>
-    <div class="container shadow-lg pt-5 pb-5 bg-secondary text-white rounded" style="margin-top:10%" >
-        <div class="row align-items-center text-center text-md-left">
-            <div class="col-lg-6">
-                <h1>
-                    Home Manager
-                </h1>
-                <p class="lead">
-                    A Home Manager segítségével minden sokkal könnyebb lesz, csak előtte jól meg kellene tanulnom programozni, mert így semmi értelme.
-                    De ha egyszer megtanulok király lesz, aztán majd folyik a nyála a népnek, hogy hogy néz ki ez az egész. Addig fizessetek a kickstarter személyemnek. Köszi.
-                </p>
-            </div>
+<div class="jumbotron shadow-lg">
+    <div class="row align-items-center text-center text-md-left">
+        <div class="col-lg-6">
+            <h1 class="display-3">
+                friend
+            </h1>
+            <p class="lead">
+                A <b>friend</b> segítségével minden sokkal könnyebb lesz, csak előtte jól meg kellene tanulnom programozni, mert így semmi értelme.
+                De ha egyszer megtanulok király lesz, aztán majd folyik a nyála a népnek, hogy hogy néz ki ez az egész. Addig fizessetek a kickstarter személyemnek. Köszi.
+            </p>
+        </div>
 
-            <div class="col-lg-6">
-                <img src="https://cdn.pixabay.com/photo/2015/04/10/17/03/pots-716579_960_720.jpg" width="800" height="800" class="img-fluid rounded" />
-            </div>
+        <div class="col-lg-6">
+            <img src="https://cdn.pixabay.com/photo/2015/04/10/17/03/pots-716579_960_720.jpg" class="img-fluid rounded mt-5 border" alt="Card image cap" style="height: 100%; width:100%; display: block;" />
         </div>
     </div>
-</section>
+</div>
 
-<section style="margin-top:5%">
-    <div class="container shadow-lg pt-5 pb-5 rounded">
-        <div class="row align-items-center text-center text-md-left">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/02/12/11/09/smart-home-3148026_960_720.jpg" alt="Card image cap">
+<div class="album py-5 pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-lg">
+                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/02/12/11/09/smart-home-3148026_960_720.jpg" alt="Card image cap" style="height: 200px; width:100%; display: block;">
                     <div class="card-body">
                         <h5 class="card-title">Okosotthon</h5>
-                        <p class="card-text">Nagyon durva, tudom, de hogyha ennek a weboldalnak az alapjaival végzek, szeretném, ha egy-két IoT-s eszközömet rá tudnám kötni. Ja tudom, megbolondultam. De na.</p>
+                        <p class="card-text">Nagyon durva, tudom, de hogyha ennek a weboldalnak az alapjaival végzek, szeretném, ha egy-két IoT-s eszközömet rá tudnám kötni. Ja tudom, megbolondultam.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Király ötlet mi?</li>
@@ -40,9 +38,9 @@
                 </div>
             </div>
 
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/11/22/19/24/archive-1850170_960_720.jpg" alt="Card image cap">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-lg">
+                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/11/22/19/24/archive-1850170_960_720.jpg" alt="Card image cap" style="height: 200px; width:100%; display: block;">
                     <div class="card-body">
                         <h5 class="card-title">Készlet management</h5>
                         <p class="card-text">A készlet management lesz az első komponense a weboldalnak. Itt szeretném nyilvántartani a házamban- vagy bárhol máshol lévő termékeimet.</p>
@@ -53,9 +51,9 @@
                 </div>
             </div>
 
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/08/30/07/52/money-2696219_960_720.jpg" alt="Card image cap">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-lg">
+                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/08/30/07/52/money-2696219_960_720.jpg" alt="Card image cap" style="height: 200px; width:100%; display: block;">
                     <div class="card-body">
                         <h5 class="card-title">Pénzügy</h5>
                         <p class="card-text">Kellett egy harmadik fül, mert így nézett ki menőn. Na ez akkor legyen a pénzügy, mert miért ne? Lehetne akár valami ilyesmit is beletenni!</p>
@@ -65,9 +63,49 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-lg">
+                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Card image cap" style="height: 200px; width:100%; display: block;">
+                    <div class="card-body">
+                        <h5 class="card-title">Backend fejlesztés</h5>
+                        <p class="card-text">Előreláthatólag mindent bele fogok tenni ebbe a szoftverbe, amit csak lehet. Amit megtanulok, ha felesleges, ha nem, az biztos hogy itt lesz.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Hát ja, nem unatkozok.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-lg">
+                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2019/01/17/19/11/login-3938432_960_720.jpg" alt="Card image cap" style="height: 200px; width:100%; display: block;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frontend fejlesztés</h5>
+                        <p class="card-text">A front-end fejlesztésre is szeretnék egy kis időt szánni, király cucc ez a bootstrap. Ez is éppen egy frontend gyakorlás, jól néz ki szerintem.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Ez amúgy egy card.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-lg">
+                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637_960_720.jpg" alt="Card image cap" style="height: 200px; width:100%; display: block;">
+                    <div class="card-body">
+                        <h5 class="card-title">Kooperáció</h5>
+                        <p class="card-text">Ha eljutok odáig, szeretnék különböző nyelveken írt folyamatokat/szoftvereket integrálni a szoftverbe, hogy ne vesszenek kárba.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">A Python amúgy jó.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-</section>
+</div>
+
 
 
 
